@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      padding-top: 50px;
+      width: 380px;
+      margin: 0 auto;
+    }
+    ul {
+      list-style-type: none;
+    }
+    .tasks {
+      padding-top: 25px;
+      margin: 0 auto;
+      color: black;
+      font-family: Comic Sans MS;
+      font-size: 1em;
+    }
+    .strikethrough {
+      text-decoration: line-through;
+      color: red;
+    }
+    .nostrike {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<form action="#">
+  <label for="Change color">Add a task to your todo list:</label>
+  <input type="text" class="grabme" placeholder="Enter a menial task">
+  <input type="submit"  value="Add">
+</form>  
+
+<div>
+<ul class="tasks">
+
+</ul>
+</div>
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src = "app2.js"></script>
+
+</body>
+</html>
